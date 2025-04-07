@@ -11,8 +11,8 @@ ul,ol,li{
     list-style: none;
 }
 :root{
-    --primary-colar: #F07807;
-    --secundary-colar: #FBDDC1;
+    --primary-color: #F07807;
+    --secundary-color: #FBDDC1;
     --default-shadow: 0 4px 8px #0004;
 
 }
@@ -40,13 +40,13 @@ header li{
     transition: .5s;
 }
 header li:hover{
-    background-color: var(--secundary-colar);
+    background-color: var(--secundary-color);
     box-shadow: var(--default-shadow)
 }
 header button{
     width: 120px;
     height: 48px;
-    background-color: var(--secundary-colar);
+    background-color: var(--secundary-color);
     border:none;
     border-radius: 12px;
     box-shadow: var(--default-shadow);

@@ -10,7 +10,12 @@ a{
 ul,ol,li{
     list-style: none;
 }
+:root{
+    --primary-colar: #F07807;
+    --secundary-colar: #FBDDC1;
+    --default-shadow: 0 4px 8px #0004;
 
+}
 body{
     padding: 0 80px;
     font-family: "Poppins", sans-serif;
@@ -20,9 +25,9 @@ header{
     width: calc(100% - 160px);
     position: fixed;
     top:60px;
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header menu{
     display: flex;
@@ -35,14 +40,23 @@ header li{
     transition: .5s;
 }
 header li:hover{
-    background-color: #FEF2E7;
-    box-shadow: 0 4px 8px #0004;
+    background-color: var(--secundary-colar);
+    box-shadow: var(--default-shadow)
+}
+header button{
+    width: 120px;
+    height: 48px;
+    background-color: var(--secundary-colar);
+    border:none;
+    border-radius: 12px;
+    box-shadow: var(--default-shadow);
+
 }
 main{
     height: 700px;
-    background-color: plum;
+    background-color: #FEF2E7;
 }
 footer{
     height: 526px;
-    background-color: tomato;
+    background-color: #F07807;
 }

@@ -16,6 +16,9 @@ ul,ol,li{
     --default-shadow: 0 4px 8px #0004;
     --default-padding: 0 80px;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Poppins", sans-serif;
     background-color: var(--secundary-color-);
@@ -24,7 +27,7 @@ header{
     height: 60px;
     width: 100%;
     position: fixed;
-
+    z-index: 9999;
     top:60px;
     display: flex;
     justify-content: space-between;
@@ -109,7 +112,6 @@ section{
 .produtos:hover .adicionar{
     opacity: 1;
 }
-
 .produtos{
     position: relative;
     display: flex;
